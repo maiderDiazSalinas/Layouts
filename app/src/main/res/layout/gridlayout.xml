@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:rowCount="2"
+    android:columnCount="3"
+    android:useDefaultMargins="true"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/grid_tvUno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_light"
+        android:padding="48dp"
+        android:text="@string/uno"/>
+
+    <TextView
+        android:id="@+id/grid_tvDos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_light"
+        android:padding="48dp"
+        android:text="@string/dos"/>
+
+    <TextView
+        android:id="@+id/grid_tvTres"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_light"
+        android:padding="48dp"
+        android:text="@string/tres"/>
+
+    <TextView
+        android:id="@+id/grid_tvCuatro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_light"
+        android:padding="48dp"
+        android:text="@string/cuatro"/>
+
+    <TextView
+        android:id="@+id/grid_tvCinco"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_light"
+        android:padding="48dp"
+        android:text="@string/cinco"/>
+
+    <TextView
+        android:id="@+id/grid_tvSeis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_light"
+        android:padding="48dp"
+        android:text="@string/seis"/>
+
+    <TextView
+        android:id="@+id/grid_tvSiete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="48dp"
+        android:text="7"/>
+
+    <TextView
+        android:id="@+id/grid_tvOcho"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="8"
+        android:padding="48dp"/>
+
+</GridLayout>
